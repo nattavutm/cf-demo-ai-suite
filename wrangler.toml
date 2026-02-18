@@ -1,4 +1,4 @@
-name = "cf-demo-landing"
+name = "bank-cf-demo-ai-suite"
 main = "src/index.js"
 compatibility_date = "2024-03-18"
 
