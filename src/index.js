@@ -23,12 +23,11 @@ export default {
 
 const STYLES = `:root {
     --bg-white: #ffffff;
-    --primary-blue: #4285f4;
-    --primary-red: #ea4335;
-    --primary-yellow: #fbbc05;
-    --primary-green: #34a853;
+    --gemini-blue: #4796e3;
+    --gemini-purple: #ad89eb;
+    --gemini-pink: #ca6673;
     --text-main: #1f1f1f;
-    --text-dim: #5f6368;
+    --text-dim: #444746;
     --nav-height: 64px;
 }
 
@@ -128,12 +127,18 @@ body {
 }
 
 .hero-content h1 {
-    font-size: clamp(3rem, 10vw, 6rem);
+    font-size: clamp(3rem, 10vw, 5.5rem);
     font-weight: 700;
     line-height: 1.05;
     margin-bottom: 24px;
     letter-spacing: -0.02em;
     color: var(--text-main);
+}
+
+.hero-content h1 span {
+    background: linear-gradient(90deg, var(--gemini-blue), var(--gemini-purple), var(--gemini-pink));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .hero-content p {
@@ -152,13 +157,20 @@ body {
 }
 
 .btn-black {
-    background: #000;
+    background: #1f1f1f;
     color: #fff;
     padding: 14px 32px;
     border-radius: 100px;
     text-decoration: none;
     font-weight: 600;
-    transition: transform 0.2s;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.btn-black:hover {
+    background: #000;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
 }
 
 .btn-outline {
@@ -335,7 +347,7 @@ const ctx = canvas.getContext('2d');
 
 let width, height, particles;
 
-const colors = ['#4285f4', '#ea4335', '#fbbc05', '#34a853'];
+const colors = ['#4796e3', '#ad89eb', '#ca6673', '#ad89eb'];
 
 class Particle {
     constructor() {
@@ -424,7 +436,7 @@ const HTML = `<!DOCTYPE html>
     <main>
         <section class="hero">
             <div class="hero-content">
-                <h1 class="fade-in">Confidently scale AI security</h1>
+                <h1 class="fade-in">Confidently scale <span>AI security</span></h1>
                 <p class="fade-up" style="font-weight: 700; color: var(--text-main); margin-bottom: 12px; text-align: center;">Secure AI interactions by controlling data and managing risk across your AI lifecycle.</p>
                 <p class="fade-up" style="font-size: 1.1rem; max-width: 800px; text-align: center; color: var(--text-dim);">Cloudflare AI Security Suite offers a unified platform for securing workforce AI tools and public-facing applications. Discover shadow AI, protect models from abuse, secure agent access, and prevent data exposure in prompts — so your enterprise can innovate safely and efficiently, with easier visibility and stronger control.</p>
                 <div class="hero-actions">
