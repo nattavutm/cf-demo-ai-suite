@@ -95,6 +95,13 @@ body {
     gap: 32px;
 }
 
+.nav-item {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
 .nav-links a {
     color: var(--text-main);
     text-decoration: none;
@@ -105,6 +112,44 @@ body {
 
 .nav-links a:hover {
     opacity: 0.7;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 8px;
+    min-width: 200px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease;
+    z-index: 1001;
+}
+
+.nav-item:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}
+
+.dropdown a {
+    display: block;
+    padding: 12px 16px;
+    color: var(--text-main) !important;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: background 0.2s;
+}
+
+.dropdown a:hover {
+    background: #f5f5f7;
+    opacity: 1 !important;
 }
 
 .btn-pill {
@@ -427,7 +472,12 @@ const HTML = `<!DOCTYPE html>
             <div class="logo">Cloudflare <span>Demo</span></div>
             <div class="nav-links">
                 <a href="#features">Product</a>
-                <a href="#use-cases">Use Cases <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline; vertical-align:middle; margin-left:2px;"><path d="m6 9 6 6 6-6"/></svg></a>
+                <div class="nav-item">
+                    <a href="#use-cases">Use Cases <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline; vertical-align:middle; margin-left:2px;"><path d="m6 9 6 6 6-6"/></svg></a>
+                    <div class="dropdown">
+                        <a href="https://ai-search.cfdemor5r5.online/" target="_blank">AI Search</a>
+                    </div>
+                </div>
                 <a href="#demo" class="btn-pill">Get Started</a>
             </div>
         </div>
