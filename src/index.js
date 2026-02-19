@@ -469,16 +469,18 @@ const HTML = `<!DOCTYPE html>
     
     <nav class="glass-nav">
         <div class="nav-content">
-            <div class="logo">Cloudflare <span>Demo</span></div>
+            <div class="logo"><a href="https://demo-ai.cfdemor5r5.online/" target="_blank" style="color: inherit; text-decoration: none;">Cloudflare <span>Demo</span></a></div>
             <div class="nav-links">
-                <a href="#features">Product</a>
+                <a href="https://www.cloudflare.com/" target="_blank">Product</a>
                 <div class="nav-item">
                     <a href="#use-cases">Use Cases <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline; vertical-align:middle; margin-left:2px;"><path d="m6 9 6 6 6-6"/></svg></a>
                     <div class="dropdown">
                         <a href="https://ai-search.cfdemor5r5.online/" target="_blank">AI Search</a>
+                        <a href="https://dash.cloudflare.com/13ebdde3f1c7214069372d80970c4b28/ai/ai-gateway/gateways/cf-demo-ai-suite-ai-search/overview" target="_blank">AI Gateway</a>
+                        <a href="https://steam.cfdemor5r5.online/" target="_blank">Stream</a>
                     </div>
                 </div>
-                <a href="#demo" class="btn-pill">Get Started</a>
+                <a href="https://www.linkedin.com/in/bank-nattavut" target="_blank" class="btn-pill" style="background: #0A66C2;">LinkedIn</a>
             </div>
         </div>
     </nav>
@@ -486,9 +488,9 @@ const HTML = `<!DOCTYPE html>
     <main>
         <section class="hero">
             <div class="hero-content">
-                <h1 class="fade-in">Confidently scale <span>AI security</span></h1>
-                <p class="fade-up" style="font-weight: 700; color: var(--text-main); margin-bottom: 12px; text-align: center;">Secure AI interactions by controlling data and managing risk across your AI lifecycle.</p>
-                <p class="fade-up" style="font-size: 1.1rem; max-width: 800px; text-align: center; color: var(--text-dim);">Cloudflare AI Security Suite offers a unified platform for securing workforce AI tools and public-facing applications. Discover shadow AI, protect models from abuse, secure agent access, and prevent data exposure in prompts — so your enterprise can innovate safely and efficiently, with easier visibility and stronger control.</p>
+                <h1 class="fade-in">Cloudflare <span>Platform Demo</span></h1>
+                <p class="fade-up" style="font-weight: 700; color: var(--text-main); margin-bottom: 12px; text-align: center;">Experience the power of Cloudflare's edge computing platform</p>
+                <p class="fade-up" style="font-size: 1.1rem; max-width: 800px; text-align: center; color: var(--text-dim);">This demo showcases Cloudflare's comprehensive platform including Workers, KV, D1, R2, AI Gateway, and more - all running at the edge for optimal performance and security.</p>
                 <div class="hero-actions">
                     <a href="#demo" class="btn-black">Explore Demo</a>
                     <a href="https://workers.cloudflare.com/" target="_blank" class="btn-outline">View Documentation</a>
