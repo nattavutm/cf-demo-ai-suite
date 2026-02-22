@@ -482,7 +482,6 @@ const HTML = `<!DOCTYPE html>
                         <a href="https://proxy.cfdemor5r5.online/" target="_blank">Manage Proxy</a>
                     </div>
                 </div>
-                <a href="https://www.linkedin.com/in/bank-nattavut" target="_blank" class="btn-pill" style="background: #0A66C2;">LinkedIn</a>
             </div>
         </div>
     </nav>
@@ -497,10 +496,11 @@ const HTML = `<!DOCTYPE html>
                     <a href="#demo" class="btn-black">Explore Demo</a>
                     <a href="https://workers.cloudflare.com/" target="_blank" class="btn-outline">View Documentation</a>
                 </div>
+                <p style="margin-top: 32px; font-size: 1.15rem; color: var(--text-dim);">Made by <a href="https://www.linkedin.com/in/bank-nattavut" target="_blank" style="color: var(--gemini-blue); text-decoration: none; font-weight: 600;">Bank Nattavut</a></p>
             </div>
         </section>
-    </main>
 
+    </main>
     <script src="/script.js"></script>
 </body>
 </html>
