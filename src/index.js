@@ -479,6 +479,7 @@ const HTML = `<!DOCTYPE html>
                         <a href="https://ai-search.cfdemor5r5.online/" target="_blank">AI Search</a>
                         <a href="https://dash.cloudflare.com/13ebdde3f1c7214069372d80970c4b28/ai/ai-gateway/gateways/cf-demo-ai-suite-ai-search/overview" target="_blank">AI Gateway</a>
                         <a href="https://steam.cfdemor5r5.online/" target="_blank">Stream</a>
+                        <a href="https://proxy.cfdemor5r5.online/" target="_blank">Manage Proxy</a>
                     </div>
                 </div>
                 <a href="https://www.linkedin.com/in/bank-nattavut" target="_blank" class="btn-pill" style="background: #0A66C2;">LinkedIn</a>

@@ -1,6 +1,7 @@
 name = "bank-cf-demo-ai-suite"
 main = "src/index.js"
 compatibility_date = "2024-03-18"
+account_id = "13ebdde3f1c7214069372d80970c4b28"
 
 [vars]
 ENVIRONMENT = "production"
