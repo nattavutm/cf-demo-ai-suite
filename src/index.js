@@ -478,6 +478,7 @@ const HTML = `<!DOCTYPE html>
                         <a href="https://worker-ai.cfdemor5r5.online/" target="_blank">Worker AI</a>
                         <a href="https://ai-search.cfdemor5r5.online/" target="_blank">AI Search</a>
                         <a href="https://dash.cloudflare.com/13ebdde3f1c7214069372d80970c4b28/ai/ai-gateway/gateways/cf-demo-ai-suite-ai-search/overview" target="_blank">AI Gateway</a>
+                        <a href="https://steam-frontend.cfdemor5r5.online/" target="_blank">Steam Frontend</a>
                         <a href="https://steam.cfdemor5r5.online/" target="_blank">Stream</a>
                         <a href="https://proxy.cfdemor5r5.online/" target="_blank">Manage Proxy</a>
                     </div>
