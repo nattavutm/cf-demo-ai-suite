@@ -481,6 +481,7 @@ const HTML = `<!DOCTYPE html>
                         <a href="https://steam-frontend.cfdemor5r5.online/" target="_blank">Steam Frontend</a>
                         <a href="https://steam.cfdemor5r5.online/" target="_blank">Stream</a>
                         <a href="https://proxy.cfdemor5r5.online/" target="_blank">Manage Proxy</a>
+                        <a href="https://demo-api.cfdemor5r5.online/" target="_blank">API Shield</a>
                     </div>
                 </div>
             </div>
