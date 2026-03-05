@@ -482,6 +482,7 @@ const HTML = `<!DOCTYPE html>
                         <a href="https://steam.cfdemor5r5.online/" target="_blank">Stream</a>
                         <a href="https://proxy.cfdemor5r5.online/" target="_blank">Manage Proxy</a>
                         <a href="https://demo-api.cfdemor5r5.online/" target="_blank">API Shield</a>
+                        <a href="https://http-status-check.cfdemor5r5.online/" target="_blank">HTTP Status Check</a>
                     </div>
                 </div>
             </div>
